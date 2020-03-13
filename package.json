@@ -1,0 +1,21 @@
+{
+  "name": "@yunser/ip-cli",
+  "version": "0.0.1",
+  "description": "Print your IP.",
+  "main": "index.js",
+  "author": "Yunser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunser/ip-cli"
+  },
+  "bin": {
+    "ip": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^4.1.1",
+    "moment": "^2.24.0",
+    "superagent": "^5.2.2"
+  }
+}
